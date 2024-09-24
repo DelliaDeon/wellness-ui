@@ -2,6 +2,13 @@
 
 A new Flutter project.
 
+Wellness-UI like its name is the user interface of a mobile app thet focuses on working out. It consists of two screens, that show calories burnt, a user's weight, gym time, and more. Users have the ability to use the app's workout program.
+This is however only the frontend, as I am currently focusing on improving my 
+skills. It is built with Flutter.
+The app's theme is black, orange, grey and white, and the inspiration was gotten from dribbble.
+
+
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
