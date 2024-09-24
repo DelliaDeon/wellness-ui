@@ -38,7 +38,7 @@ class _HomeScreenState extends State<HomeScreen> {
         ],
       ),
 
-      body: Container(
+      body:  SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.all(20.0),
           child: Column(
@@ -124,7 +124,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         ],
                       ),
 
-                      Spacer(),
+                      SizedBox(height: 20,),
                       Row(
                         children: [
                           buildBarGraph(context,
@@ -181,7 +181,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
               ),
 
-              Spacer(),
+              SizedBox(height: 15,),
               buildCustomButton(context,
                 Colors.orange,
                 Colors.black87,
@@ -190,7 +190,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 '23-08-06',
               ),
 
-              Spacer(),
+              SizedBox(height: 15,),
               buildCustomButton(context,
                 Colors.white,
                 Colors.black54,
@@ -198,11 +198,12 @@ class _HomeScreenState extends State<HomeScreen> {
                 'Stretching',
                 '23-08-08',
               ),
-              Spacer(),
+              SizedBox(height: 15,),
             ],
           ),
         ),
       ),
+      //),
     );
   }
 
